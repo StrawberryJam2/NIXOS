@@ -59,6 +59,7 @@
     zip unzip p7zip xz gzip bzip2
     lshw
     lm_sensors
+    (callPackage ./rebuild.nix {})
   ];
 
   nixpkgs.config.allowUnfree = true;
